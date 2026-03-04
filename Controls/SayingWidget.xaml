@@ -1,0 +1,10 @@
+<UserControl x:Class="MAS_GUI.Controls.SayingWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <TextBlock x:Name="SayingText"
+                   Text=""
+                   Style="{StaticResource MaterialSubtitle}"
+                   TextWrapping="Wrap" />
+    </Grid>
+</UserControl>
