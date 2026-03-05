@@ -311,6 +311,13 @@
             <Setter Property="Foreground" Value="{StaticResource MaterialOnPrimaryContainer}" />
         </Style>
 
+        <Style x:Key="MaterialTonalTopBarButton" TargetType="{x:Type controls:MaterialButton}" BasedOn="{StaticResource MaterialTonalButton}">
+            <Setter Property="Height" Value="32" />
+            <Setter Property="MinHeight" Value="32" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="Padding" Value="16,4" />
+        </Style>
+
         <Style x:Key="MaterialOutlinedButton" TargetType="{x:Type controls:MaterialButton}" BasedOn="{StaticResource {x:Type controls:MaterialButton}}">
             <Setter Property="Background" Value="Transparent" />
             <Setter Property="Foreground" Value="{StaticResource MaterialPrimary}" />

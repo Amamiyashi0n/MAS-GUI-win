@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MAS_GUI"
         xmlns:controls="clr-namespace:MAS_GUI.Controls"
         mc:Ignorable="d"
-        Title="MAS AIO"
+        Title="MAS GUI"
         Height="720"
         Width="420"
         WindowStyle="None"
@@ -96,6 +96,13 @@
                             CornerRadius="20"
                             Background="{StaticResource MaterialPrimaryContainer}"
                             VerticalAlignment="Center">
+                        <Border.Effect>
+                            <DropShadowEffect BlurRadius="10"
+                                              ShadowDepth="1"
+                                              Opacity="0.2"
+                                              Color="#22000000"
+                                              RenderingBias="Performance" />
+                        </Border.Effect>
                         <controls:MaterialIcon Geometry="{StaticResource IconToolbox}"
                                                Fill="{StaticResource MaterialOnPrimaryContainer}"
                                                Width="20"
@@ -106,7 +113,7 @@
 
                     <TextBlock Grid.Row="0"
                                Grid.Column="1"
-                               Text="MAS AIO"
+                               Text="MAS GUI"
                                Style="{StaticResource MaterialTitle}"
                                Margin="12,2,12,0"
                                VerticalAlignment="Center" />
@@ -121,12 +128,12 @@
                                 Orientation="Horizontal"
                                 VerticalAlignment="Center">
                         <controls:MaterialButton x:Name="AdvancedButton"
-                                                 Style="{StaticResource MaterialTextButton}"
+                                                 Style="{StaticResource MaterialTonalTopBarButton}"
                                                  Content="高级"
                                                  Width="64"
                                                  Click="OnShowAdvanced" />
                         <controls:MaterialButton x:Name="BackButton"
-                                                 Style="{StaticResource MaterialTextButton}"
+                                                 Style="{StaticResource MaterialTonalTopBarButton}"
                                                  Content="返回"
                                                  Width="64"
                                                  Visibility="Collapsed"
@@ -142,6 +149,13 @@
                     <controls:MaterialCard Width="320">
                         <StackPanel HorizontalAlignment="Center">
                             <Border Width="56" Height="56" CornerRadius="28" Background="{StaticResource MaterialPrimaryContainer}">
+                                <Border.Effect>
+                                    <DropShadowEffect BlurRadius="10"
+                                                      ShadowDepth="1"
+                                                      Opacity="0.2"
+                                                      Color="#22000000"
+                                                      RenderingBias="Performance" />
+                                </Border.Effect>
                                 <controls:MaterialIcon Geometry="{StaticResource IconWindowsMd3}" Fill="{StaticResource MaterialOnPrimaryContainer}" Width="26" Height="26" HorizontalAlignment="Center" VerticalAlignment="Center" />
                             </Border>
                             <TextBlock Text="一键激活" Style="{StaticResource MaterialSection}" HorizontalAlignment="Center" Margin="0,16,0,0" />

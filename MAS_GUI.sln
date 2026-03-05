@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.36631.11
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAS_GUI", "MAS_GUI.csproj", "{88814441-D5ED-4E39-A193-D7377B337EF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAS_GUI_dotnet_3.0", "MAS_GUI_dotnet_3.0.csproj", "{88814441-D5ED-4E39-A193-D7377B337EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAS_GUI_dotnet_4.0", "MAS_GUI_dotnet_4.0.csproj", "{B9D63321-A5C9-4F7C-9D54-48D6F64F6F16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{88814441-D5ED-4E39-A193-D7377B337EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88814441-D5ED-4E39-A193-D7377B337EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88814441-D5ED-4E39-A193-D7377B337EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D63321-A5C9-4F7C-9D54-48D6F64F6F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D63321-A5C9-4F7C-9D54-48D6F64F6F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D63321-A5C9-4F7C-9D54-48D6F64F6F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D63321-A5C9-4F7C-9D54-48D6F64F6F16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
