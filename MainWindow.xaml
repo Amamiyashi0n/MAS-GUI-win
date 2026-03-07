@@ -7,14 +7,15 @@
         xmlns:controls="clr-namespace:MAS_GUI.Controls"
         mc:Ignorable="d"
         Title="MAS GUI"
-        Height="720"
-        Width="420"
+        Height="760"
+        Width="460"
         WindowStyle="None"
         ResizeMode="NoResize"
         AllowsTransparency="True"
         Background="Transparent">
     <Border Background="{StaticResource MaterialSurfaceContainer}"
             CornerRadius="{StaticResource CornerLarge}"
+            Margin="20"
             SnapsToDevicePixels="True">
         <Border.Effect>
             <DropShadowEffect BlurRadius="24"
