@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
     <Grid>
         <TextBlock x:Name="SayingText"
-                   Text=""
+                   Text="残阳寒陌行无尽，独揽清风伴烟雨"
                    Style="{StaticResource MaterialSubtitle}"
                    TextWrapping="Wrap" />
     </Grid>

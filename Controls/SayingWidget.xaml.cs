@@ -52,7 +52,11 @@ namespace MAS_GUI.Controls
 
                 if (string.IsNullOrEmpty(saying))
                 {
-                    saying = string.Empty;
+                    // If fetching fails, we keep the default text or set it explicitly.
+                    // Since we have set default text in XAML, we can just return,
+                    // or we can set it to the default text to be safe in case it was cleared.
+                    // But simpler is to just not update if empty.
+                    return;
                 }
 
                 Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,
