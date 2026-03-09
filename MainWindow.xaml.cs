@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using System.IO;
 using System.Threading;
 using System.Windows;
@@ -49,6 +50,15 @@ namespace MAS_GUI
             
             // Hook up sponsor dialog event
             SponsorDialog.Closed += OnSponsorClosed;
+        }
+
+        private void OnProjectLinkClick(object sender, MouseButtonEventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo("https://github.com/Amamiyashi0n/MAS-GUI") { UseShellExecute = true });
+            }
+            catch { }
         }
 
         private void OnTitleBarMouseLeftButtonDown(object sender, MouseButtonEventArgs e)
