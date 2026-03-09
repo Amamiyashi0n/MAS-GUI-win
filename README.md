@@ -2,6 +2,10 @@
 
 一个基于 WPF 的 Microsoft Activation Scripts (MAS) 图形化界面工具，提供简洁美观的 Material Design 风格界面，用于 Windows 和 Office 的激活管理。
 
+## 应用截图
+
+<img width="513" height="883" alt="image" src="https://github.com/user-attachments/assets/15d342cf-2164-4d3a-9fa7-83c5c73f42de" />
+
 ## 功能特性
 
 - **一键激活**：自动检测 Windows 和已安装 Office 套件并激活
