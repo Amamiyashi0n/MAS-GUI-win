@@ -4,7 +4,7 @@
 
 ## 应用截图
 
-<img width="513" height="883" alt="image" src="https://github.com/user-attachments/assets/15d342cf-2164-4d3a-9fa7-83c5c73f42de" />
+<img width="252" height="437" alt="screenshot-20260309-203727 (1)" src="https://github.com/user-attachments/assets/d1d988f5-069b-46c4-96b1-2eea81e0b533" />
 
 ## 功能特性
 
