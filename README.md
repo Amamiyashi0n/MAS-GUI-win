@@ -1,6 +1,8 @@
 # MAS GUI
 
 一个基于 WPF 的 Microsoft Activation Scripts (MAS) 图形化界面工具，提供简洁美观的 Material Design 风格界面，用于 Windows 和 Office 的激活管理。
+## 应用截图
+<img width="504" height="874" alt="screenshot-20260309-203727" src="https://github.com/user-attachments/assets/c67b0632-1bc6-4fb4-819f-8851f4501808" />
 
 ## 功能特性
 
