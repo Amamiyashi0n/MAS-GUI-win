@@ -50,7 +50,7 @@ MAS_GUI/
 ### 前置要求
 
 - Visual Studio 2017 或更高版本
-- .NET Framework 3.5 SDK
+- .NET Framework 3.0 SDK
 
 ### 构建步骤
 
