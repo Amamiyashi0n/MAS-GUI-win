@@ -18,7 +18,7 @@
 ## 系统要求
 
 - Windows 操作系统
-- .NET Framework 3.5 或更高版本
+- .NET Framework 3.0 或更高版本
 
 ## 项目结构
 
